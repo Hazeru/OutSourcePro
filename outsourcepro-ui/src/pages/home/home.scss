@@ -1,0 +1,71 @@
+
+.home-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+
+   .home-text {
+      flex: 1;
+   }
+
+   .home-image {
+      flex: 1;
+      text-align: right; /* Aligns the image on the right */
+      
+      img {
+         max-width: 100%;
+         height: auto;
+         border-radius: 8px;
+      }
+   }
+
+
+
+/*THREE DETAILS*/
+.home-three {
+   display: flex;             /* Align children in a row */
+   flex-direction: column;   /* Stack them vertically */
+   gap: 20px;                /* Space between sections */
+ }
+ 
+ .section1,
+ .section2,
+ .section3 {
+   border: 1px solid #ccc;   /* Optional: adds a border */
+   padding: 20px;            /* Inner padding for text */
+   border-radius: 8px;       /* Optional: rounded corners */
+   background-color: #f9f9f9; /* Optional: background color */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+ }
+
+
+  /*FOOTER*/
+  .footer {
+   background-color: black;
+   padding: 20px;
+   color: white;
+ }
+ 
+ .footer-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .footer-text {
+   text-align: left;
+ }
+ 
+ .footer-links {
+   text-align: right;
+ }
+ 
+ &:hover {
+           text-decoration: underline; // Underline on hover for links
+         }
+
+
+
+
+}
